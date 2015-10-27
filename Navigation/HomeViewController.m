@@ -20,6 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.title = @"Home";
+    self.tabBarItem.image = [UIImage imageNamed:@"sample-307-atom.png"];
 }
 
 - (void)didReceiveMemoryWarning {

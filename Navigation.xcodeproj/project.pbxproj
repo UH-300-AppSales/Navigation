@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C670B2111BD6E18C00359192 /* sample-305-palm-tree.png in Resources */ = {isa = PBXBuildFile; fileRef = C670B20F1BD6E18C00359192 /* sample-305-palm-tree.png */; settings = {ASSET_TAGS = (); }; };
+		C670B2121BD6E18C00359192 /* sample-307-atom.png in Resources */ = {isa = PBXBuildFile; fileRef = C670B2101BD6E18C00359192 /* sample-307-atom.png */; settings = {ASSET_TAGS = (); }; };
 		C67EE6FB1BCDA36C005B6645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C67EE6FA1BCDA36C005B6645 /* main.m */; };
 		C67EE6FE1BCDA36C005B6645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C67EE6FD1BCDA36C005B6645 /* AppDelegate.m */; };
 		C67EE7061BCDA36C005B6645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67EE7051BCDA36C005B6645 /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C670B20F1BD6E18C00359192 /* sample-305-palm-tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample-305-palm-tree.png"; sourceTree = "<group>"; };
+		C670B2101BD6E18C00359192 /* sample-307-atom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample-307-atom.png"; sourceTree = "<group>"; };
 		C67EE6F61BCDA36C005B6645 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67EE6FA1BCDA36C005B6645 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C67EE6FC1BCDA36C005B6645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -194,6 +198,8 @@
 		C67EE73F1BCDAB17005B6645 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C670B20F1BD6E18C00359192 /* sample-305-palm-tree.png */,
+				C670B2101BD6E18C00359192 /* sample-307-atom.png */,
 				C67EE7401BCDAB4D005B6645 /* Monkey.jpg */,
 			);
 			name = Images;
@@ -307,7 +313,9 @@
 				C67EE7411BCDAB4D005B6645 /* Monkey.jpg in Resources */,
 				C67EE7061BCDA36C005B6645 /* Assets.xcassets in Resources */,
 				C67EE7381BCDA83F005B6645 /* ProfileViewController.xib in Resources */,
+				C670B2121BD6E18C00359192 /* sample-307-atom.png in Resources */,
 				C67EE7321BCDA494005B6645 /* HomeViewController.xib in Resources */,
+				C670B2111BD6E18C00359192 /* sample-305-palm-tree.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +562,7 @@
 				C67EE7251BCDA36D005B6645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C67EE7261BCDA36D005B6645 /* Build configuration list for PBXNativeTarget "NavigationTests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +571,7 @@
 				C67EE7281BCDA36D005B6645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C67EE7291BCDA36D005B6645 /* Build configuration list for PBXNativeTarget "NavigationUITests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +580,7 @@
 				C67EE72B1BCDA36D005B6645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

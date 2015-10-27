@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "HomeViewController.h"
+#import "MonkeyViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,6 +23,8 @@
     //Create the home view controller
     HomeViewController *homeVC = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
     
+    MonkeyViewController *monkeyVC = [[MonkeyViewController alloc] initWithNibName:@"MonkeyViewController" bundle:nil];
+    
     //Set up the window
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
@@ -29,9 +32,19 @@
     //Build navigation controller
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:homeVC];
     navController.navigationBar.opaque = YES;
+    //Color the nav bar!
+    navController.navigationBar.barTintColor = [UIColor colorWithWhite:0.75 alpha:1];
+    
+    //Create a tab bar controller
+    UITabBarController *tabController = [[UITabBarController alloc] init];
+    //Set view controllers!
+    tabController.viewControllers = @[navController, monkeyVC];
+    
+    //Set bar tint color
+    tabController.tabBar.barTintColor = [UIColor colorWithWhite:0.75 alpha:1];
     
     //Tie together the window and the view controller
-    self.window.rootViewController = navController;
+    self.window.rootViewController = tabController;
     
     return YES;
 }
